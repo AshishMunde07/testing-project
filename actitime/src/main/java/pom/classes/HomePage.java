@@ -19,6 +19,8 @@ public class HomePage {
 	
 	@FindBy (xpath="//a[@href='/ent/logout.do']")
 	private WebElement logout;
+	@FindBy (xpath="//a[@href='/ent/logout.do']")
+	private WebElement logout;
 	//private WebDriver driver ;
 			
 	public HomePage(WebDriver driver)
